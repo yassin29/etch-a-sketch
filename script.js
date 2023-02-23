@@ -14,3 +14,5 @@ const createGrid = (amtOfGrids) => {
         container.appendChild(row)
     }
 }
+const sizeOfGrid = 16
+createGrid(sizeOfGrid)
